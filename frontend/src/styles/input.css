@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  html {
+    font-family: 'sans-serif';
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply block mx-2;
+  }
+  :root {
+    --light-gray: #f8f8f8;
+    --rich-black: #1f1f1f;
+    --dodger-blue: #0086ff;
+    --dark: #2a0e32;
+    --white: white;
+    --light-green: #a9f27a;
+    --pink-purple: #f58dfe;
+    --pastel-pink: #f7b6b8;
+    --sky-blue: #e1e8f1;
+    --light-shade: #ffe2bf;
+  }
+}
+
+@media (max-width: 991px) {
+  body {
+    @apply text-2xl;
+  }
+}

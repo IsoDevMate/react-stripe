@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+.fail-page{
+    background: white;
+    border-radius: 40px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fail-icon{
+    font-size: 100px;
+    color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.fail-page h1{
+    font-size: 30px;
+}
+.fail-page h3{
+    font-size: 20px;
+}
+.fail-page button{
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.fail-page button:hover{
+    background: #f1f1f1;
+    color: black;
+    border: 1px solid black;
+}
